@@ -1,0 +1,55 @@
+header.header {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+nav.menu {
+  float: right;
+  margin-top: 10px;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+div.cuerpo h1 {
+  margin-bottom: 20px;
+}
+
+.boot {
+  padding-top: 80px;
+  text-align: center;
+}
+
+@media only screen and (min-width:768px){
+  .boot img{
+    width: 50%;
+  }
+}
+
+section.inscripcion {
+  padding: 50px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+section.contacto {
+  padding: 50px 0;
+}
+
+.contacto ul li {
+  margin: 0 auto;
+  display: ;
+}
+
+footer{
+  padding: 10px 0;
+  background: #1a1a1a;
+  color: #fff;
+  margin: 0 auto;
+}
